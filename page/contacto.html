@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="Formulario de contacto de Explora Perú">
+
+    <meta name="author" content="Explora Perú">
+
+    <meta name="keywords" content="contacto, viajes, turismo, Perú">
+    <title>Explora Perú</title>
+
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+
+</head>
+
+
+<body bgcolor="#E1F5DC">
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <table width="100%" bgcolor="#0B4F71">
+
+            <tr>
+
+                <!-- LOGO -->
+
+                <td width="30%" align="center">
+
+                    <a href="index.html">
+
+                       <img src="../imagenes/logo.png" width="200" alt="Logo Explora Perú">
+
+                    </a>
+
+                </td>
+
+
+
+                <!-- MENU -->
+
+                <td width="70%" align="center">
+
+                    <nav>
+
+                        <a href="../index.html">
+                            <button>Inicio</button>
+                        </a>
+
+                        <a href="../index.html#destinos">
+                            <button>Destinos</button>
+                        </a>
+
+                        <a href="../index.html#paquetes">
+                            <button>Paquetes</button>
+                        </a>
+
+                        <a href="contacto.html">
+                            <button>Contacto</button>
+                        </a>
+
+                    </nav>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+        <!-- CONTACTO -->
+
+        <section>
+
+            <table width="100%">
+
+                <tr>
+
+                    <td width="20%"></td>
+
+
+                    <td width="60%">
+
+                        <h1>
+                            Contáctanos
+                        </h1>
+
+
+                        <form>
+
+                            <table width="100%" cellpadding="10">
+
+
+                                <tr>
+
+                                    <td>
+
+                                        <label>
+                                            Nombres:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="text"
+                                            id="txtnombres"
+                                            placeholder="Ingresa tu nombre"
+                                            size="30">
+
+                                    </td>
+
+
+                                    <td>
+
+                                        <label>
+                                            Apellidos:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="text"
+                                            id="txtapellidos"
+                                            placeholder="Ingresa tu apellido"
+                                            size="30">
+
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+
+                                        <label>
+                                            Correo electrónico:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="email"
+                                            id="txtcorreo"
+                                            placeholder="Ingresa tu correo"
+                                            size="30">
+
+                                    </td>
+
+
+                                    <td>
+
+                                        <label>
+                                            Teléfono:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="tel"
+                                            id="txttelefono"
+                                            placeholder="Ingresa tu teléfono"
+                                            size="30">
+
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+
+                                        <label>
+                                            Fecha de viaje:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="date"
+                                            id="txtfechaviaje">
+
+                                    </td>
+
+
+                                    <td>
+
+                                        <label>
+                                            Destino:
+                                        </label>
+
+                                        <br>
+
+                                        <select>
+
+                                            <option value="">
+                                                --SELECCIONE DESTINO--
+                                            </option>
+
+                                            <option value="machupicchu">
+                                                Machu Picchu
+                                            </option>
+
+                                            <option value="cusco">
+                                                Cusco
+                                            </option>
+
+                                            <option value="arequipa">
+                                                Arequipa
+                                            </option>
+
+                                            <option value="paracas">
+                                                Paracas
+                                            </option>
+
+                                        </select>
+
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+
+                                        <label>
+                                            Tipo de viaje:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="radio"
+                                            name="tipoviaje"
+                                            value="aventura"
+                                            checked>
+
+                                        Aventura
+
+                                        <input
+                                            type="radio"
+                                            name="tipoviaje"
+                                            value="cultural">
+
+                                        Cultural
+
+                                    </td>
+
+
+                                    <td>
+
+                                        <label>
+                                            Actividades:
+                                        </label>
+
+                                        <br>
+
+                                        <input
+                                            type="checkbox"
+                                            name="actividad"
+                                            value="visitas">
+
+                                        Visitas turísticas
+
+                                        <input
+                                            type="checkbox"
+                                            name="actividad"
+                                            value="gastronomia">
+
+                                        Gastronomía
+
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td colspan="2">
+
+                                        <label>
+                                            Mensaje:
+                                        </label>
+
+                                        <br>
+
+                                        <textarea
+                                            name="mensaje"
+                                            rows="6"
+                                            cols="70"
+                                            placeholder="Escriba su mensaje"></textarea>
+
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td colspan="2">
+
+                                        <input
+                                            type="submit"
+                                            value="Enviar solicitud">
+
+                                        <input
+                                            type="reset"
+                                            value="Limpiar">
+
+                                    </td>
+
+                                </tr>
+
+
+                            </table>
+
+                        </form>
+
+
+                        <p>
+
+                            <a href="../index.html">
+
+                                <button>
+                                    Volver a Explora Perú
+                                </button>
+
+                            </a>
+
+                        </p>
+
+
+                    </td>
+
+
+                    <td width="20%"></td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <table width="100%" bgcolor="#000000">
+
+            <tr>
+
+                <td width="10%"></td>
+
+
+                <td width="40%">
+
+                    <h1>
+
+                        <font color="#ffffff">
+                            Explora Perú
+                        </font>
+
+                    </h1>
+
+
+                    <p>
+
+                        <font color="#ffffff">
+
+                            Tu próxima aventura comienza aquí.
+
+                            <br>
+
+                            Dirección: Av. Turismo 123, Lima
+
+                            <br>
+
+                            Teléfono: 987-654-321
+
+                            <br>
+
+                            Correo: contacto@exploraperu.com
+
+                        </font>
+
+                    </p>
+
+                </td>
+
+
+                <td width="40%" align="center">
+
+                    <h1>
+
+                        <font color="#ffffff">
+                            Síguenos
+                        </font>
+
+                    </h1>
+
+
+                    <p>
+
+                        <a
+                            href="https://www.facebook.com/"
+                            target="_blank">
+
+                            <img
+                                width="75"
+                                src="https://static.designboom.com/wp-content/uploads/2023/09/facebook-new-logo-change-designboom-02.jpg"
+                                alt="Facebook">
+
+                        </a>
+
+
+                        <a
+                            href="https://www.instagram.com/"
+                            target="_blank">
+
+                            <img
+                                width="55"
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                                alt="Instagram">
+
+                        </a>
+
+
+                        <a
+                            href="https://www.youtube.com/"
+                            target="_blank">
+
+                            <img
+                                width="80"
+                                src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
+                                alt="YouTube">
+
+                        </a>
+
+                    </p>
+
+                </td>
+
+
+                <td width="10%"></td>
+
+            </tr>
+
+        </table>
+
+
+        <table width="100%" bgcolor="#052C38">
+
+            <tr>
+
+                <td align="center">
+
+                    <font color="#ffffff">
+
+                        <p>
+                            © 2026 Explora Perú - Todos los derechos reservados.
+                        </p>
+
+                    </font>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </footer>
+
+
+</body>
+
+</html>
